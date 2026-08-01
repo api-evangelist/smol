@@ -1,7 +1,27 @@
 aid: smol
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smol.png
 name: Smol
-description: 'Smol is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Smol is a UK-based direct-to-consumer home-care brand founded in 2018 by Paula
+  Quazi and Nick Green, delivering concentrated, plant-based, cruelty-free
+  cleaning products — laundry capsules, dishwasher tablets, fabric conditioner,
+  surface sprays and personal-care bars — on a flexible subscription that ships
+  refills through the letterbox. The company positions itself as a sustainability
+  challenger to legacy home-care brands, emphasizing reduced plastic, carbon and
+  chemical load, and became a certified B Corporation in July 2022. Backed by
+  Balderton Capital and GV, Smol operates a consumer e-commerce and subscription
+  business; it publishes no public developer API, SDKs or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/smol/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Home Care
+- Cleaning Products
+- Subscription
+- E-commerce
+- Direct-to-Consumer
+- Sustainability
+- B Corp
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +50,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://smolproducts.com
+  url: https://smol.com
+- type: Support
+  url: https://help.smolproducts.com/hc/en-us
+- type: Login
+  url: https://myaccount.smol.com/login
+- type: TermsOfService
+  url: https://smol.com/uk/terms-of-service
+- type: PrivacyPolicy
+  url: https://smol.com/uk/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
