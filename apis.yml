@@ -46,23 +46,23 @@ modified: '2026-07-21'
 tags:
 - Company
 - Consumer
-- Home Care
 - Cleaning Products
 - Subscription
 - E-Commerce
 - Direct to Consumer
 - Sustainability
 - B Corp
+- Household Products
 tags_raw:
 - Company
 - Consumer
-- Home Care
 - Cleaning Products
 - Subscription
 - E-commerce
 - Direct-to-Consumer
 - Sustainability
 - B Corp
+- Household Products
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -85,3 +85,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 0
   pass: local-v1
+x-tags-removed:
+- Home Care
