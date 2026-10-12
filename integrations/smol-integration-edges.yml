@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/smol/integrations
+- https://n8n.io/integrations/smol/
+- https://composio.dev/toolkits/smol
+- https://monid.ai/tools/smol
+checked:
+- https://composio.dev/toolkits/smol
+- https://monid.ai/tools/smol
+- https://n8n.io/integrations/smol/
+- https://zapier.com/apps/smol/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
